@@ -18,8 +18,8 @@ class Timer extends React.Component {
       }
 
       componentDidMount() {
-        let timeLeftVar = this.secondsToTime(this.state.seconds);
-        this.setState({ time: timeLeftVar });
+        let timeLeftconst = this.secondsToTime(this.state.seconds);
+        this.setState({ time: timeLeftconst });
       }
     
       startTimer() {
