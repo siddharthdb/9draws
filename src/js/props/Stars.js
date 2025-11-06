@@ -1,6 +1,6 @@
 import React from 'react';
 import { range } from 'lodash';
-import '../../../node_modules/font-awesome/css/font-awesome.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Stars = (props) => {
   return (

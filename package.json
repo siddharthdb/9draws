@@ -3,19 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "^5.2.3",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.6.4",
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "bootstrap": "^5.3.8",
+    "jquery": "^3.7.1",
     "lodash": "^4.17.21",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "scripts": {
     "start": "parcel ./public/index.html",
-    "build": "parcel build"
+    "build": "parcel build ./public/index.html"
   },
   "devDependencies": {
-    "parcel": "^2.8.3",
+    "parcel": "^2.16.1",
     "process": "^0.11.10"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"

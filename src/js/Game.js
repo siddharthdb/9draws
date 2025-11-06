@@ -55,9 +55,9 @@ class Game extends React.Component {
 
     const listSize = arr.length,
       combinationCount = 1 << listSize;
-    for (const i = 0; i < combinationCount; i++) {
-      const combinationSum = 0;
-      for (const j = 0; j < listSize; j++) {
+    for (let i = 0; i < combinationCount; i++) {
+      let combinationSum = 0;
+      for (let j = 0; j < listSize; j++) {
         if (i & (1 << j)) {
           combinationSum += arr[j];
         }
